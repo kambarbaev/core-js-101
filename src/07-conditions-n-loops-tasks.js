@@ -406,6 +406,15 @@ function toNaryString(num, n) {
 function getCommonDirectoryPath(/* pathes */) {
   throw new Error('Not implemented');
 }
+// function getCommonDirectoryPath(pathes) {
+//   const prepareArr = pathes.map(i => i.split('/'));
+//   const resultPath = [];
+//   const firstPath = prepareArr[0];
+//   for (let i = 0; i < firstPath; i++) {
+//       if ()
+//   }
+//   return prepareArr;
+// }
 
 
 /**
